@@ -362,6 +362,6 @@ The report explains the motivation, experimental design, results, limitations, a
 
 3. Leike, J., Krakovna, V., Orseau, L., & Legg, S. (2017). AI Safety Gridworlds.
 
-4. Çağatan, A., & Zhao, Y. (2026). arXiv:2606.15385.
+4. Çağatan, Ö. V., & Zhao, X. (2026). *Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds.* arXiv:2606.15385.
 
-5. Thaman, K. (2026). arXiv:2605.02964.
+5. Thaman, K. (2026). *Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use.* arXiv:2605.02964.
