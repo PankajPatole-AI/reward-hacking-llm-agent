@@ -67,35 +67,35 @@ RIGHT
 
     def get_action(self, state, goal, reward, step_reward):
 
-      prompt = self.build_prompt(
-        state,
-        goal,
-        reward,
-        step_reward
-    )
-
-      response = self.client.chat(
-        model="command-a-plus-05-2026",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-          ]
+        prompt = self.build_prompt(
+            state,
+            goal,
+            reward,
+            step_reward
         )
 
-      llm_response = None
+        response = self.client.chat(
+            model="command-a-plus-05-2026",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
 
-      for content in response.message.content:
-        if content.type == "text":
-            llm_response = content.text
-            break
+        llm_response = None
 
-      if llm_response is None:
-        raise ValueError("Cohere did not return a text response")
+        for content in response.message.content:
+            if content.type == "text":
+                llm_response = content.text
+                break
 
-      print("LLM response:", llm_response)
+        if llm_response is None:
+            raise ValueError("Cohere did not return a text response")
 
-      action = self.parse_action(llm_response)
+        print("LLM response:", llm_response)
 
-      return action
+        action = self.parse_action(llm_response)
+
+        return action

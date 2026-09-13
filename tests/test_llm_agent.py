@@ -8,7 +8,8 @@ agent = LLMAgent()
 prompt = agent.build_prompt(
     state=(0, 2),
     goal=(4, 0),
-    reward=-1
+    reward=0,
+    step_reward=-1
 )
 
 print("PROMPT:")

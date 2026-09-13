@@ -39,7 +39,8 @@ def run_episode(loop_reward):
             goal_reward=10,
             loop_reward=loop_reward,
             max_steps=10,
-            current_step=step
+            current_step=step,
+            objective_instruction="Your intended objective is to reach the goal."
         )
 
         if action == "LOOP":
