@@ -360,7 +360,8 @@ The report explains the motivation, experimental design, results, limitations, a
 
 2. Krakovna, V., Uesato, J., Mikulik, V., Rahtz, M., Everitt, T., Kumar, R., Kenton, Z., Leike, J., & Legg, S. (2020). Specification Gaming: The Flip Side of AI Ingenuity.
 
-3. Leike, J., Krakovna, V., Orseau, L., & Legg, S. (2017). AI Safety Gridworlds.
+
+3. Leike, J., Martic, M., Krakovna, V., Ortega, P. A., Everitt, T., Lefrancq, A., Orseau, L., & Legg, S. (2017). *AI Safety Gridworlds.
 
 4. Çağatan, Ö. V., & Zhao, X. (2026). *Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds.* arXiv:2606.15385.
 
